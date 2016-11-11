@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.myContainer {
+  width:90%;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+
+.letterSpacing {
+  letter-spacing: 5px;
+}
+
+body {
+  font-size: 12px;
+}
+
+/**********
+   HEADER
+***********/
+
+.myNav {
+  margin-right: 0
+}
+
+.navbar .navbar-toggle {
+  /*border-color: #242729;*/
+
+}
+
+#bs-example-navbar-collapse-1 ul li a {
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,1);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+.icon-bar {
+  background-color: #242729;
+
+}
+
+header {
+  background: url('../img/masthead-bg.jpg') no-repeat center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 280px;
+  padding-top: 50px;
+}
+
+header h1 {
+  height: 90%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #FDFFE3;
+  text-shadow: 1px 1px 5px rgba(0,0,0,1);
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+header img {
+  width: 17%;
+  /*padding-left: 25px */
+  margin-top: 8px;
+  margin-left: 20px;
+
+}
+
+/**********
+    BODY
+***********/
+
+#mainBody {
+  text-align: center;
+  background-color: #FDFFE3;
+
+}
+
+#mainBody h4 {
+  margin: 0px;
+  color: #8E4423;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#mainBody h1 {
+  padding: .5% 0;
+  font-size: 30px;
+}
+
+#mainBody p {
+  line-height: 1.825em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainBody a {
+  color: #8E4423;
+}
+
+
+#visitbox {
+  height: 170px;
+  width: 200px;
+  margin: 10px auto 0 auto;
+  background-color: #8E4423;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+#visitbox img {
+  width: 20%;
+  margin-top: 40px;
+}
+
+#visitbox h4 {
+  color: #E6E3BB;
+}
+
+/***********
+CONTACT BODY
+************/
+
+#contactBody {
+  background-color: #242729;
+  color: white;
+
+}
+
+#contactBody h2 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 30px;
+}
+
+.inputWidth {
+  width: 90%;
+  margin: 0 5% 4% 5%;
+}
+
+#contactBody button {
+  border-color: white;
+  background-color: #242729;
+  width: 90px;
+  font-size: 1.0625rem
+}
+
+#contactBody form {
+  text-align: center;
+}
+
+
+/***********
+BLOG SECTION
+************/
+
+#blogSection {
+  background-color: #FDFFE3;
+
+}
+
+#blogSection h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#blogSection article {
+  width: 45%;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#blogSection p {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  color: #8E4423;
+  font-family: 'Montserrat', sans-serif;
+}
+#blogSection a {
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#blogSection article:nth-child(1), article:nth-child(3){
+  margin: 0 2.5%;
+}
+
+
+/***********
+   FOOTER
+************/
+footer {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #8E4423;
+  text-align: center;
+}
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  color: white;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+footer ul li a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+  display: none;
+}
+@media (max-width: 766px){
+  header img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .myContainer {
+    padding: 5% 0;
+  }
+  body {
+    font-size: 14px;
+  }
+  nav {
+    padding:0 2%;
+  }
+  header {
+    height: 320px;
+  }
+  header img {
+    width: 50%;
+    margin-left: 50px;
+    padding-bottom: 10px;
+  }
+  header h1{
+    color: #FDFFE3;
+    text-shadow: 1px 1px 5px rgba(0,0,0,1);
+    margin: 0;
+    padding-top: 240px;
+    padding-left: 40%;
+    font-size: 50px;
+  }
+  header ul {
+    padding-top: 1em;
+    padding-right: 3em
+  }
+
+
+  #bodyContent {
+    width: 65%;
+    display: inline-block;
+    text-align: left;
+
+  }
+  #bodyContent h4 {
+    font-size: 15px;
+  }
+
+  #boxContent {
+    width: 30%;
+    float:right;
+  }
+  #visitbox{
+    margin: 12% auto;
+  }
+
+  #contactBody h2 {
+    padding-bottom: 10px;
+  }
+  #contactBody form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #contactBody input {
+    width: 45%;
+    display: inline-block;
+    margin: 5px 0.5%;
+    font-size: 10px;
+  }
+
+  #contactBody textarea {
+    height: 100px;
+    width: 91.5%;
+    margin: 10px auto 0px auto;
+    font-size: 10px;
+
+  }
+
+  #contactBody form button {
+    margin: 20px auto 5px auto;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: none;
+    width: 100px;
+  }
+
+  #blogSection h2 {
+    padding-bottom: 10px;
+
+  }
+  #blogSection {
+    margin: 0 auto;
+
+  }
+
+  #blogSection article:nth-child(1), article:nth-child(3){
+    margin: 0 1%;
+  }
+
+  #blogSection article {
+    width: 22%;
+    margin: 0 1%;
+  }
+  #blogSection article:nth-child(1) {
+    margin-left: 2%;
+  }
+  #blogSection a {
+    font-size: 11px;
+  }
+
+  footer {
+    text-align: left;
+    padding-left: 6.5%;
+  }
+  footer ul {
+    display: inline;
+  }
+  footer ul li {
+    padding: 0 3px;
+    letter-spacing: 1px;
+    font-style: none;
+  }
+  footer p {
+    display:inline;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 10px;
+    padding-right: 7%;
+    letter-spacing: 2px;
+  }
+}
+
+@media (min-width: 960px) {
+  html, body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+
+  nav {
+    max-width: 960px;
+    padding: 0;
+  }
+  html {
+    background-color: black;
+  }
+  .myNav {
+    margin: 0 auto;
+  }
+  header {
+    height: 390px;
+  }
+  header img {
+    width: 60%;
+
+  }
+  header h1{
+    color: #FDFFE3;
+    text-shadow: 0px 0px 0px rgba(0,0,0,1);
+    margin: 0;
+    padding-top: 309px;
+    padding-left: 45%;
+    font-size: 60px;
+  }
+
+}
